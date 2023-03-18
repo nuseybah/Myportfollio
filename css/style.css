@@ -35,6 +35,26 @@ header{
 	border-bottom: 1px solid transparent;
 	transition: all .45s ease;
 }
+
+.icons{
+	display: flex;
+    float: right;
+}
+.icons h2{
+	font-size: 20px;
+color: white;
+}
+
+.ico1 {
+	display:block;
+}
+
+.icons p{
+	color: black;
+	font-size: 20px;
+}
+
+
 .logo{
 	color: var(--text-color);
 	font-size: 35px;
@@ -76,7 +96,7 @@ section{
 	position: relative;
 	height: 100vh;
 	width: 100%;
-	/* background-image: url(../img/nus2.jpeg); */
+	/* background-image: url(../img/nuuu.png); */
 	background-size: cover;
 	background-position: center;
 	display: flex;
@@ -215,9 +235,18 @@ header.sticky{
 	font-size: 35px;
 }
 
+
+
+/* .media iconify-icon{
+	color: rgb(2, 218, 117);
+	font-size: 35px;
+} */
+
 .media :hover{
 	transform: scale(1.1) translateY(5px);
 }
+
+
 
 .media iconify-icon{
 	color:#0565ff;
@@ -226,6 +255,8 @@ header.sticky{
 	padding-top: 30px;
 
 }
+
+
 
 .services{
 	background: var(--second-bg-color);
@@ -238,6 +269,15 @@ header.sticky{
 .main-text{
 	text-align: center;
 }
+
+.main-text1 h1{
+	font-size: var(--big-font);
+	line-height: 1;
+	
+
+}
+
+
 .main-text p{
 	color: var(--second-color);
 	font-size: 15px;
@@ -262,21 +302,36 @@ header.sticky{
 	padding: 6px;
 
 }
+
+
+
 .box{
 	background: var(--bg-color);
 	padding: 35px 45px;
 	border-radius: 8px;
 	transition: all .45s ease;
-	height: 360px;
+	height: 420px;
 }
-.box img{
+
+
+
+
+
+.box1 img{
+	grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+	background: var(--bg-color);
+	/* padding: 35px 45px; */
+	border-radius: 8px;
+	transition: all .45s ease;
+	height: 300px;
 	width: 100%;
 	border-radius: 8px;
-	display: block;
+	/* display: block; */
 	transition: transform 0.5s;
-	padding-bottom: 15px;
+	/* padding-bottom: 15px; */
 
 }
+
 
 .s-icons iconify-icon{
 	font-size: 52px;
@@ -302,21 +357,24 @@ header.sticky{
 	margin-bottom: 25px;
 }
 .read{
-	margin-top: 20px;
+	margin-top: 10px;
 	display: inline-block;
 	padding: 8px 18px;
-	background: #333333;
+	background: #212121;
 	/* color: var(--second-color); */
-	color-scheme: white;
+	/* color-scheme: white; */
 	font-size: 14px;
-	font-weight: 500;
+	font-weight: 560;
 	border-radius: 8px;
 	transition: all .45s ease;
+	margin-left: 10px;
+	/* color: var(--text-color); */
+
 }
 .read:hover{
 	letter-spacing: 1px;
 	background: #ffffff99;
-	color: var(--text-color);
+	color: black;
 }
 .box:hover{
 	transform: translateY(-8px);
@@ -405,6 +463,9 @@ header.sticky{
 	font-size: var(--h2-font);
 	line-height: 1;
 }
+
+
+
 .contact-text p{
 	color: var(--second-color);
 	font-size: var(--p-font);
@@ -427,7 +488,7 @@ header.sticky{
 	color: var(--text-color);
 	transform: translateX(5px);
 }
-.contact-icons i{
+/* .contact-icons i{
 	height: 45px;
 	width: 45px;
 	background: var(--main-color);
@@ -439,10 +500,36 @@ header.sticky{
 	border-radius: 8px;
 	margin-right: 15px;
 	transition: all .45s ease;
+} */
+
+.contact-form{
+	text-align: center;
+	margin-left: 300px;
+
+
+	
 }
 
-.contact-form form input,
-form textarea{
+.Text h2{
+	font-size: 50px;
+	color: rgb(72, 72, 73);
+	font-size: var(--h2-font);
+	/* line-height: 1; */
+
+}
+
+
+.Text pre{
+	font-size: 23 3px;
+	color: black;
+	
+}
+
+
+
+
+
+/* .contact-form textarea{
 	width: 100%;
 	padding: 14px;
 	background: var(--bg-color);
@@ -468,7 +555,7 @@ form textarea{
 .contact-form .submit:hover{
 	transform: scale(1.1);
 	cursor: pointer;
-}
+} */
 
 .end{
 	padding: 20px 15%;
@@ -506,7 +593,7 @@ section{
 
 }
 
-.contact-form h1{
+/* .contact-form h1{
 	font-size: 80px;
 	color: #fff;
 	margin-bottom: 20px;
@@ -540,28 +627,28 @@ form textarea{
 }
 .contact-form form .btn{
 	/* background: #ffffff99;	 */
-	display: inline-block;
-	padding: 12px 28px;
+		/* display: inline-block;
+		padding: 12px 28px; */
 	/* background: var(--main-color); */
-	border-radius: 5px;
+	/* border-radius: 5px;
 	font-size: 1.1;
 	/* color: var(--second-color); */
-	font-size: 1rem;
+	/* font-size: 1rem;
 	letter-spacing: 1px;
 	font-weight: 600;
 	transition: all .45s ease;
 	background: #5c5c5c;
-	color: blueviolet;
+	color: blueviolet; */
 
 	
-}
+/* }  */
 
-.contact-form form .btn:hover{
+/* .contact-form form .btn:hover{
 	letter-spacing: 1px;
 	background: #b2b2b299;
 	color: #333333;
 
-}
+}  */
 
 
 
@@ -650,4 +737,21 @@ form textarea{
 	.services-content{
 		grid-template-columns: 1fr;
 	}
+
+	.contact-form{
+		/* margin: 20px; */
+		margin: 0;
+		text-align: left;
+
+	}
+
+	.Text pre{
+		left: 0;
+		right: 0;
+
+		/* font-size: 23 3px;
+		color: black; */
+		
+	}
+
 }
