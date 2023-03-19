@@ -376,6 +376,28 @@ header.sticky{
 	background: #ffffff99;
 	color: black;
 }
+
+.read1{
+	margin-top: 10px;
+	display: inline-block;
+	padding: 8px 18px;
+	background: #212121;
+	/* color: var(--second-color); */
+	/* color-scheme: white; */
+	font-size: 14px;
+	font-weight: 560;
+	border-radius: 8px;
+	transition: all .45s ease;
+	margin-left: 10px;
+}
+
+.read1:hover{
+	letter-spacing: 1px;
+	background: #ffffff99;
+	color: black;
+}
+
+
 .box:hover{
 	transform: translateY(-8px);
 	cursor: pointer;
@@ -739,19 +761,35 @@ form textarea{
 	}
 
 	.contact-form{
-		/* margin: 20px; */
-		margin: 0;
-		text-align: left;
-
+		text-align: center;
+		margin: 0px;
+	
+	
+		
+	}
+	
+	.Text h2{
+		font-size: 50px;
+		color: rgb(72, 72, 73);
+		font-size: var(--h2-font);
+	
+	}
+	
+	
+	.Text p{
+		font-size: 23px;
+		color: black;
+		
 	}
 
-	.Text pre{
-		left: 0;
-		right: 0;
+	.read1{
+		margin: 0px;
+		margin:0dvh 0px;
+	}
+	.Text{
+		display: block;
 
-		/* font-size: 23 3px;
-		color: black; */
-		
+
 	}
 
 }
